@@ -1,1 +1,200 @@
+/* * {
+  border: 2px solid green;
+} */
+
+body {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+}
+
+header {
+  height: 16vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  background-color: lightgrey;
+}
+
+.user-name {
+  height: 4vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: lightgray;
+}
+
+main {
+  /* height: 85%; */
+  display: flex;
+  align-content: flex-start;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #263840;
+}
+
+.card-description {
+  height: 40px;
+}
+
+.user-logo {
+  height: 25px;
+  width: 25px;
+  margin-right: 15px;
+}
+
+.name-display{
+  width: 83px;
+  font-size: 18px;
+  margin-top: 24px;
+}
+
+.drop-down {
+  height: 20px;
+  width: 20px;
+  margin-right: 35px;
+  margin-left: 16px;
+  margin-top: 11px 
+}
+
+.nav-bar {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav-icons {
+  height: 25px;
+  width: 25px;
+}
+
+.icons {
+  height: 100%;
+  width: 500px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.trailsource {
+  height: 117px;
+  width: 121px;
+  margin-right: 35px
+}
+
+
+.nav-bar {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.buttons {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.grid-container {
+  height: 100vh;
+  width: 82vw;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  justify-items: center;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 15px;
+  grid-row-gap: 15px;
+}
+
+article {
+  height: 100%;
+  width: 100%;
+  border: 2px solid black;
+  
+}
+.card-top {
+  height: 35%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: flex-start;
+}
+
+.card-bottom {
+  height: 269px;
+  margin-top: 0%;
+  background-color: #b2d8d8;
+}
+
+p {
+  margin-left: 15px;
+
+}
+
+.turnpage {
+  height: 45px;
+  width: 45px;
+  margin-top: 5px;
+  margin-left: 5px
+}
+
+.views {
+  height: 64px;
+  width: 55px;
+  font-size: 18px;
+  margin-top: 0px;
+  color: black;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  margin-right: 10px
+}
+
+.Crested-Butte {
+  background-image: url(assets/crested-butte.png);
+  background-size: cover;
+}
+.Breckenridge {
+  background-image: url(assets/breckenridge.png);
+  background-size: cover;
+}
+.Winter-Park {
+  background-image: url(assets/winter-park.png);
+  background-size: cover;
+}
+.Durango {
+  background-image: url(assets/durango.png);
+  background-size: cover;
+  
+}
+.Buena-Vista {
+  background-image: url(assets/buena-vista.png);
+  background-size: cover;
+}
+.Telluride {
+  background-image: url(assets/telluride.png);
+  background-size: cover;
+}
+.Vail {
+  background-image: url(assets/vail.png);
+  background-size: cover;
+}
+.Colorado-Springs {
+  background-image: url(assets/co-springs.png);
+  background-size: cover;
+}
+
+
+
+
 
