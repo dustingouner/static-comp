@@ -21,9 +21,6 @@ I spent about 10 hours working on this static comp where we had to mimic a simil
 - HTML
 - CSS
 
-### Context:
-[//]: <> (Give some context for the project here. How long did you have to work on it? How far into the Turing program are you?)
-
 ### Contributors:
 [//]: <> (Who worked on this application? Link to their GitHubs.)
 Dustin Gouner - https://github.com/dustingouner
